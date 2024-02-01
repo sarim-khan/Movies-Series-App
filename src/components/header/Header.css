@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft,
+.headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+.headerLeft>a {
+    text-decoration: wavy;
+    margin: 0 30px;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Stylish', serif;
+}
+
+
+.headerLeft>span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
